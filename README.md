@@ -65,9 +65,3 @@ python -m examples.http_zip_demo --url https://github.com/psf/requests/archive/r
 
 ## License
 [MIT](LICENSE)
-
-## Topics / hashtags
-Use these **GitHub topics** to make the repo discoverable:
-`python` · `http` · `range-requests` · `streaming` · `random-access` · `zipfile` · `io` · `cdn` · `s3` · `data-engineering`
-
-For social or release notes: **#python #http #rangerequests #streaming #zipfile #randomaccess #cdn #s3**

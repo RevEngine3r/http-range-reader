@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "http-range-reader"
+version = "0.1.0"
+description = "Minimal HTTP byte-range reader (2-chunk LRU + prefetch) for random access streaming."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Saeed Rev" }]
+dependencies = [
+  "requests>=2.31",
+]
+
+[project.urls]
+Homepage = "https://github.com/<YOUR_GH_USER>/http-range-reader"
+Issues = "https://github.com/<YOUR_GH_USER>/http-range-reader/issues"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.4",
+  "pytest-cov>=5.0",
+  "flake8>=7.0",
+  "mypy>=1.10",
+  "types-requests",
+]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+
+[tool.mypy]
+python_version = "3.9"
+ignore_missing_imports = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+
+[tool.flake8]
+max-line-length = 100

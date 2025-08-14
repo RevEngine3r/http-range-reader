@@ -1,6 +1,6 @@
 # HTTP Range Reader
 
-[![CI](https://img.shields.io/github/actions/workflow/status/<YOUR_GH_USER>/http-range-reader/ci.yml?branch=main)](https://github.com/<YOUR_GH_USER>/http-range-reader/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/RevEngine3r/http-range-reader/ci.yml?branch=main)](https://github.com/RevEngine3r/http-range-reader/actions)
 [![PyPI](https://img.shields.io/pypi/v/http-range-reader.svg)](https://pypi.org/project/http-range-reader/)
 [![Python](https://img.shields.io/pypi/pyversions/http-range-reader.svg)](https://pypi.org/project/http-range-reader/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
